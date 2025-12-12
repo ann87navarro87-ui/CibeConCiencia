@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>¿Cómo Actuar? - CiberConCiencia</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/main.js" defer></script>
+    <script src="js/escenarios.js" defer></script>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <a href="index.html" class="logo">
+                <img src="img/logo.svg" alt="Logo CiberConCiencia">
+                CiberConCiencia
+            </a>
+            <ul class="nav-links">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="que-es.html">¿Qué es?</a></li>
+                <li><a href="repercusiones.html">Repercusiones</a></li>
+                <li><a href="como-actuar.html" class="active">¿Cómo Actuar?</a></li>
+                <li><a href="recursos.html">Recursos</a></li>
+                <li><a href="quiz.html">Quiz</a></li>
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-header">
+            <h1>Toma el Control: Pasos a Seguir</h1>
+        </section>
+
+        <section class="content-section container">
+            <h2>Si eres víctima de ciberacoso</h2>
+            <p>Sentirse asustado, enojado o confundido es normal. Pero no estás indefenso. Aquí tienes una estrategia de 4 pasos:</p>
+            <ul>
+                <li><strong>1. No respondas:</strong> Los acosadores a menudo buscan una reacción. No les des esa satisfacción.</li>
+                <li><strong>2. Guarda la evidencia:</strong> Haz capturas de pantalla de los mensajes, comentarios y perfiles. Esto es crucial si necesitas reportarlo.</li>
+                <li><strong>3. Bloquea y reporta:</strong> Usa las herramientas de la plataforma (red social, juego, etc.) para bloquear a los acosadores y reportar el contenido.</li>
+                <li><strong>4. Habla con alguien:</strong> Este es el paso más importante. Cuéntaselo a tus padres, un profesor, un consejero o un amigo de confianza. No tienes que pasar por esto solo.</li>
+            </ul>
+
+            <h2>Si eres testigo de ciberacoso</h2>
+            <p>Tu acción (o inacción) tiene un gran impacto. El silencio puede ser interpretado como aprobación. En lugar de ser un espectador, conviértete en un aliado:</p>
+            <ul>
+                <li><strong>No participes:</strong> No compartas, comentes ni le des "me gusta" al contenido de acoso.</li>
+                <li><strong>Apoya a la víctima:</strong> Envía un mensaje privado a la persona afectada para mostrarle tu apoyo. Saber que no está sola puede significar mucho.</li>
+                <li><strong>Reporta el contenido:</strong> Utiliza las herramientas de la plataforma para denunciar el acoso. Los reportes suelen ser anónimos.</li>
+                <li><strong>No confrontes al acosador directamente en público:</strong> Esto podría ponerte en riesgo. Es más efectivo reportar y apoyar a la víctima.</li>
+            </ul>
+        </section>
+
+        <section class="content-section container">
+            <h2>Pon a Prueba tus Conocimientos</h2>
+            <p>La teoría es importante, pero la práctica lo es más. Responde a los siguientes escenarios para ver cómo reaccionarías en una situación real.</p>
+            <div id="scenario-container">
+                <p id="scenario-text">Cargando escenario...</p>
+                <div id="choices-container"></div>
+                <div id="feedback-container" style="display: none;">
+                    <p id="feedback-text"></p>
+                </div>
+                <button id="next-scenario-btn" style="display: none;">Siguiente Escenario</button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content container">
+            <p>&copy; 2025 CiberConCiencia. Un espacio seguro para aprender y crecer.</p>
+        </div>
+    </footer>
+</body>
+</html>

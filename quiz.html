@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz de CiberConCiencia</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/main.js" defer></script>
+    <script src="js/quiz.js" defer></script>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <a href="index.html" class="logo">
+                <img src="img/logo.svg" alt="Logo CiberConCiencia">
+                CiberConCiencia
+            </a>
+            <ul class="nav-links">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="que-es.html">¿Qué es?</a></li>
+                <li><a href="repercusiones.html">Repercusiones</a></li>
+                <li><a href="como-actuar.html">¿Cómo Actuar?</a></li>
+                <li><a href="recursos.html">Recursos</a></li>
+                <li><a href="quiz.html" class="active">Quiz</a></li>
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-header">
+            <h1>Quiz de Ciber-Conocimiento</h1>
+        </section>
+
+        <section class="content-section container">
+            <div id="quiz-container">
+                <div id="quiz-start-screen">
+                    <h2>Pon a prueba lo que has aprendido</h2>
+                    <p>Responde a las siguientes preguntas para ver cuánto sabes sobre ciberacoso y seguridad en línea. ¡Mucha suerte!</p>
+                    <button id="start-quiz-btn" class="btn">Empezar Quiz</button>
+                </div>
+
+                <div id="quiz-question-screen" style="display: none;">
+                    <div id="question-header">
+                        <p id="question-counter"></p>
+                        <h3 id="question-text"></h3>
+                    </div>
+                    <div id="answer-buttons" class="grid-layout">
+                        <!-- Botones de respuesta se generarán aquí -->
+                    </div>
+                </div>
+
+                <div id="quiz-end-screen" style="display: none;">
+                    <h2>Quiz Finalizado</h2>
+                    <p id="score-text"></p>
+                    <p id="score-message"></p>
+                    <button id="restart-quiz-btn" class="btn">Volver a Intentar</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content container">
+            <p>&copy; 2025 CiberConCiencia. Un espacio seguro para aprender y crecer.</p>
+        </div>
+    </footer>
+</body>
+</html>
